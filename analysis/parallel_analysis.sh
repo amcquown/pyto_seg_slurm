@@ -16,5 +16,5 @@ source new-modules.sh
 source activate PYTO_SEG_ENV
 
 cd $img_dir
-python3 ~/code/batch_segmentation/parallel_analysis.py -d $img_dir \
+python3 ~/code/pyto_seg_slurm/analysis/parallel_analysis.py -d $img_dir \
     -n $SLURM_ARRAY_TASK_ID -a $ntasks -t $expt_type
