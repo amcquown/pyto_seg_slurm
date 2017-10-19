@@ -1,6 +1,6 @@
 import os
 import sys
-sys.path.append('/n/denic_lab/Users/nweir/python_packages/')
+sys.path.append('/n/home06/amcquown/code/pyto_seg_slurm/analysis')
 import argparse
 from pyto_segmenter import PexSegment, MitoSegment
 import numpy as np

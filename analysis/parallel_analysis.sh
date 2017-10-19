@@ -7,7 +7,7 @@
 #SBATCH -o %A_%a.out
 #SBATCH -e %A_%a.err
 #SBATCH --mail-type=ALL
-#SBATCH --mail-user=nweir@fas.harvard.edu
+#SBATCH --mail-user=amcquown@g.harvard.edu
 
 img_dir=$1
 ntasks=$2

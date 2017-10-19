@@ -15,4 +15,4 @@ source new-modules.sh
 module load Anaconda3/2.1.0-fasrc01
 source activate PYTO_SEG_ENV
 
-python3 /n/home06/amcquown/code/pyto_seg_slurm/preprocessing -d $img_dir
+python3 /n/home06/amcquown/code/pyto_seg_slurm/preprocessing/norm_camera.py -d $img_dir
